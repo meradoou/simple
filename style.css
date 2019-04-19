@@ -1,0 +1,85 @@
+/**
+ * Theme Name: Simple
+ * Theme URI: https://dev.tsena.be
+ * Author: Mirado
+ * Author URI: https://dev.tsena.be
+ * Description: Theme Nu pour des devs sur WordPress
+ * Version: 2019.04.18
+ * 
+ */ 
+ 
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.25%;
+}
+
+body {
+    font-family: "Droid Sans", Tahoma, verdana, sans-serif;
+    -webkit-font-feature-settings: "liga" on, "calt" on;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-size: 1.6rem;    
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+    margin-bottom: 15px;
+}
+
+h1 { font-size: 2.1rem; }
+h2 { font-size: 2rem; }
+h3 { font-size: 1.9rem; }
+h4 { font-size: 1.8rem; }
+h5 { font-size: 1.7rem; }
+h6 { font-size: 1.6rem; }
+
+
+.layout {
+    margin: 0 15px;
+}
+
+#site-header {
+    background-color: #424242;
+    color: #fff;
+    padding: 15px 0;
+}
+#site-header > .layout {
+    display: flex;
+    justify-content: space-between;
+}
+#site-header a {
+    color: #FFF;
+}
+
+#site-brand {
+    font-weight: 700;
+}
+#site-menu ul {
+    list-style-type: none;
+}
+#site-menu li {
+    display: inline-block;
+    margin-left: 15px;
+}
+#site-menu li a {
+    text-decoration: none;
+    background-color: #FFF;
+    color: #424242;
+    padding: 10px;
+}
+#site-menu li a:hover {
+    background-color: #424242;
+    color: #FFF;    
+}
+
+#site-content {
+    padding: 30px 0;
+}
+
+#site-content p {
+    margin-bottom: 10px;
+}
